@@ -1,5 +1,7 @@
-name: Liascript Automation
+name: LiaScript Export
 
+# Run manually from the Actions tab: it renders the lesson to PDF and a
+# SCORM 1.2 package (Moodle / ILIAS) and attaches both to a GitHub Release.
 on:
   workflow_dispatch:
     inputs:
@@ -8,43 +10,34 @@ on:
         required: true
         default: 'v1.0.0'
 
+permissions:
+  contents: write # needed to create the release
+
 jobs:
-  run_liascript_automation:
+  export:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18' # Or your preferred Node.js version
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-    - name: Install Node.js dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Generate Liascript PDF
-      run: npm run generate-pdf # This runs your script/generate-pdf.js
+      - name: Export lesson (PDF + SCORM)
+        run: npm run generate-pdf
 
-    # For SCORM/IMS:
-    # If Liascript provides a way to export to SCORM/IMS via a specific JavaScript function
-    # or by wrapping your Liascript in a SCORM/IMS compatible template, you might need
-    # to extend the Puppeteer script or use other tools here.
-    # This is highly dependent on how you normally create SCORM/IMS packages from Liascript.
-    # Often, SCORM/IMS generation involves packaging web content into a specific ZIP structure.
-
-    - name: Create GitHub Release
-      uses: softprops/action-gh-release@v2
-      if: ${{ success() }}
-      with:
-        tag_name: ${{ inputs.version }}
-        name: Liascript Release - ${{ inputs.version }}
-        body: |
-          Automated release of Liascript content for version ${{ inputs.version }}.
-          Includes generated PDF and other packages.
-        draft: false
-        prerelease: false
-        files: dist/* # Ensure your generation script places files here
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.version }}
+          name: Week 02 - Research Questions & Hypotheses - ${{ inputs.version }}
+          body: |
+            Automated export of `week02_.md` (LiaScript).
+            - `.pdf`: printable handout
+            - `-scorm.zip`: SCORM 1.2 package for Moodle / ILIAS / OPAL
+          files: dist/*
