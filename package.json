@@ -1,21 +1,27 @@
 {
-  "name": "liascript-automation",
+  "name": "week02-research-questions-hypotheses",
   "version": "1.0.0",
-  "description": "Automated Liascript generation for PDF/SCORM/IMS",
-  "main": "index.js",
+  "private": true,
+  "description": "QuRM Week 02 lesson with automated PDF/SCORM export",
   "scripts": {
     "generate-pdf": "node scripts/generate-pdf.js"
   },
+  "liascript": {
+    "lesson": "week02_.md",
+    "slug": "week02-research-questions-hypotheses",
+    "organization": "Otto von Guericke University Magdeburg"
+  },
   "keywords": [
     "liascript",
-    "automation",
-    "pdf",
+    "open-educational-resources",
     "scorm",
-    "ims"
+    "pdf",
+    "automation",
+    "github-actions"
   ],
-  "author": "Your Name/Organization",
+  "author": "A E M Sabbir Rifat <a.e.m.sabbirrifat@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "puppeteer": "^22.0.0"
+  "devDependencies": {
+    "@liascript/exporter": "3.4.2--2.1.0"
   }
 }

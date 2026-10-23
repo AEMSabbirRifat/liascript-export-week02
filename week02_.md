@@ -38,7 +38,7 @@ comment:  Quantitative Research Questions, Literature Review & Hypothesis Formul
 
 {{1}}
 1. Quantitative research
-2. Qualititative research
+2. Qualitative research
 3. Mixed Method research
 
 {{2}}
