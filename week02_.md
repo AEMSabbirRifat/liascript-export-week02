@@ -21,8 +21,8 @@ comment:  Quantitative Research Questions, Literature Review & Hypothesis Formul
 # What is Research?
 {{0}}
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px; align-items: center;">
-    <img src="https://raw.githubusercontent.com/AEMSabbirRifat/automation-test-1/b90d2625b084439a22cec06fdeb2244e5408c92c/media/Think%20GIF%20by%20Cabrona%20Inc.gif" alt="Thinking GIF" style="width: 200px; height: auto; display: block; margin: auto;" />
-    <img src="https://raw.githubusercontent.com/AEMSabbirRifat/automation-test-1/b90d2625b084439a22cec06fdeb2244e5408c92c/media/Confused%20Stephen%20Colbert.gif" alt="Confused Reaction" style="width: 200px; height: 225px; display: block; margin: auto;" />
+    <img src="https://raw.githubusercontent.com/AEMSabbirRifat/liascript-export-week02/b90d2625b084439a22cec06fdeb2244e5408c92c/media/Think%20GIF%20by%20Cabrona%20Inc.gif" alt="Thinking GIF" style="width: 200px; height: auto; display: block; margin: auto;" />
+    <img src="https://raw.githubusercontent.com/AEMSabbirRifat/liascript-export-week02/b90d2625b084439a22cec06fdeb2244e5408c92c/media/Confused%20Stephen%20Colbert.gif" alt="Confused Reaction" style="width: 200px; height: 225px; display: block; margin: auto;" />
 </div>
 
 
@@ -43,7 +43,7 @@ comment:  Quantitative Research Questions, Literature Review & Hypothesis Formul
 
 {{2}}
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/AEMSabbirRifat/automation-test-1/b90d2625b084439a22cec06fdeb2244e5408c92c/media/MMR5-768x622.jpg" alt="Mixed Methods Research" style="width: 60%; max-width: 400px;">
+    <img src="https://raw.githubusercontent.com/AEMSabbirRifat/liascript-export-week02/b90d2625b084439a22cec06fdeb2244e5408c92c/media/MMR5-768x622.jpg" alt="Mixed Methods Research" style="width: 60%; max-width: 400px;">
 </div>
 
 
@@ -289,7 +289,7 @@ Aspects of Hypothesis Formulation
 
 {{2}}
 
-<img src="https://raw.githubusercontent.com/AEMSabbirRifat/automation-test-1/b90d2625b084439a22cec06fdeb2244e5408c92c/media/Screenshot%202025-03-02%20154700.png" alt="Screenshot" width="400">
+<img src="https://raw.githubusercontent.com/AEMSabbirRifat/liascript-export-week02/b90d2625b084439a22cec06fdeb2244e5408c92c/media/Screenshot%202025-03-02%20154700.png" alt="Screenshot" width="400">
 
 ## Types of Hypothesis (cont.)
 

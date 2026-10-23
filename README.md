@@ -1,7 +1,7 @@
 # One-Click Course Export: LiaScript → PDF + SCORM (Week 02 lesson)
 
-[![LiaScript Export](https://github.com/AEMSabbirRifat/automation-test-1/actions/workflows/automate-liascript.yml/badge.svg)](https://github.com/AEMSabbirRifat/automation-test-1/actions/workflows/automate-liascript.yml)
-[![Open the course](https://img.shields.io/badge/Open_the_course-LiaScript-0A66C2)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AEMSabbirRifat/automation-test-1/main/week02_.md)
+[![LiaScript Export](https://github.com/AEMSabbirRifat/liascript-export-week02/actions/workflows/automate-liascript.yml/badge.svg)](https://github.com/AEMSabbirRifat/liascript-export-week02/actions/workflows/automate-liascript.yml)
+[![Open the course](https://img.shields.io/badge/Open_the_course-LiaScript-0A66C2)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AEMSabbirRifat/liascript-export-week02/main/week02_.md)
 
 **Write a lesson once in Markdown. Get a printable handout and an LMS-ready package automatically.**
 
@@ -14,7 +14,7 @@ Both files are attached to a versioned **GitHub Release**, so every semester's v
 
 ## 📘 The lesson
 
-[`week02_.md`](week02_.md): **Quantitative Research Questions, Literature Review & Hypothesis Formulation**, week 2 of the Quantitative Research Methods course at Otto von Guericke University Magdeburg. It includes quizzes on question types and variables, embedded videos, and three in-class tasks. → [**Open it interactively**](https://liascript.github.io/course/?https://raw.githubusercontent.com/AEMSabbirRifat/automation-test-1/main/week02_.md)
+[`week02_.md`](week02_.md): **Quantitative Research Questions, Literature Review & Hypothesis Formulation**, week 2 of the Quantitative Research Methods course at Otto von Guericke University Magdeburg. It includes quizzes on question types and variables, embedded videos, and three in-class tasks. → [**Open it interactively**](https://liascript.github.io/course/?https://raw.githubusercontent.com/AEMSabbirRifat/liascript-export-week02/main/week02_.md)
 
 ## ⚙️ How it works
 
@@ -46,7 +46,7 @@ The first version opened the raw `.md` file in a headless browser, so the "PDF" 
 
 `CI/CD with GitHub Actions` · `Node.js automation` · `Docs-as-code` · `E-learning standards (SCORM)` · `Instructional design` · `Quantitative research methods`
 
-> Same pipeline, different lessons: [automation-test-2](https://github.com/AEMSabbirRifat/automation-test-2) (Week 03, Research Design & Sampling) and [Practice-Course](https://github.com/AEMSabbirRifat/Practice-Course) (minimal template).
+> Same pipeline, different lessons: [liascript-export-week03](https://github.com/AEMSabbirRifat/liascript-export-week03) (Week 03, Research Design & Sampling) and [Practice-Course](https://github.com/AEMSabbirRifat/Practice-Course) (minimal template).
 
 ---
 
